@@ -1,18 +1,2 @@
-
-/**
- * Intercom
- */
-
-.logo[data-logo="Intercom"] {
-  width: 3.764422199em;
-  /* (1345.88/407.58) * (1+.07+.07) - 0 */
-}
-
-.logo[data-logo="Intercom"] > * {
-  background-image: url(images/logo.svg);
-  margin: -.07em 0 -.07em 0;
-}
-
-.logo[data-logo="Intercom"].monochromatic > * {
-  background-image: url(images/logo-monochromatic.svg);
-}
+@import 'logo/logo';
+@import './style';
